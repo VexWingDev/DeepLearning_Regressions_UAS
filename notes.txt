@@ -1,0 +1,20 @@
+—— General Notes —— 
+
+df = Your pandas DataFrame
+df = sns.load_dataset("dimonds")
+- most pratical way to do this operation is to use a dictionary and replace the values with numeric values with .replace()
+
+If you have category variables, think about what type of category each category is.
+Decide the type of each cateogry: 
+binary, 
+Ordinal, 
+Nominal 
+
+Rules of thumb:
+Binary => easiest to detect, exactly two options -> always a binary category
+
+—— Lecture task 14/09/2026 —— 
+Take a copy of the second regression example ANN (lecture git)
+Replace the df with your own data (csv)
+Use df.head() to seee whats inside
+start processing the cateogires (binary, ordinal, nominal)
